@@ -1,5 +1,10 @@
 function hello() {
-  return "Hello JavaScript!";
 }
 
-module.exports = hello;
+function goodbye() {
+}
+
+module.exports = {
+  hello,
+  goodbye
+};
